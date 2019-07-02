@@ -67,10 +67,6 @@ class TeslaHelperClass():
             exit(1)
 
         history = json.loads(resp.text)
-
-        stuff = json.dumps(history)
-        print stuff
-
         return history
 
 
